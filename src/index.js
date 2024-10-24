@@ -49,7 +49,7 @@ console.log("get comments by postId: ", getCommentsByPostId(2));
 console.log("delete comment: ", deleteCommentById(3));
 
 updateCommentBody(1, "hala");
-console.log("get comment by id: ", getCommentById(1));
+console.log("get updated comment by id: ", getCommentById(1));
 
 const newComment = {
   postId: 500,
@@ -59,7 +59,7 @@ const newComment = {
 };
 addComment(newComment);
 
-// get by id
+// posts
 console.log("get all posts: ", getPosts());
 console.log("get posts by user: ", getPostsByUser(1));
 
